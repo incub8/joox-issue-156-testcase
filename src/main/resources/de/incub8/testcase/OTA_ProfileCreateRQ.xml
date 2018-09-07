@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_ProfileCreateRQ>
+    <Profile>
+        <Customer Language="de-DE" BirthDate="1980-01-01" Gender="Male">
+            <PersonName>
+                <GivenName>John</GivenName>
+                <Surname>Doe</Surname>
+                <NameTitle>Mr.</NameTitle>
+            </PersonName>
+            <Telephone DefaultInd="true" PhoneNumber="+49 172 2745319" />
+            <Email DefaultInd="false">johndoe@example.com</Email>
+            <TPA_Extensions>
+                <px:ProfileInfoExtensions xmlns:px="http://protel.io/htng/extensions">
+                    <px:Foo />
+                </px:ProfileInfoExtensions>
+            </TPA_Extensions>
+        </Customer>
+        <TPA_Extensions>
+            <px:ProfileInfoExtensions xmlns:px="http://protel.io/htng/extensions">
+                <px:Bar />
+            </px:ProfileInfoExtensions>
+        </TPA_Extensions>
+    </Profile>
+</OTA_ProfileCreateRQ>
